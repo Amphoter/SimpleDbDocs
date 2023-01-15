@@ -13,5 +13,5 @@ if (string.IsNullOrEmpty(connectionString))
 var tables = DbDataProvider.GetDbTablesInfo(connectionString);
 ExcelGenerator.GenerateExcelFile(tables, savePath);
 
-Console.WriteLine($"Finished generatig db docs file");
+//Console.WriteLine($"Finished generatig db docs file");
 Console.ReadLine();
