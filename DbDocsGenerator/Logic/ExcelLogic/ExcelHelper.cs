@@ -2,13 +2,13 @@
 {
     public static class ExcelHelper
     {
-        private const int maxName = 31;
+        private const int maxNameLength = 31;
 
         public static string GenerateLinesheetName(string name)
         {
-            if (name.Length > maxName)
+            if (name.Length > maxNameLength)
             {
-                var diff = name.Length - maxName;
+                var diff = name.Length - maxNameLength;
                 return name.Remove(name.Length - diff, diff);
             }
 
