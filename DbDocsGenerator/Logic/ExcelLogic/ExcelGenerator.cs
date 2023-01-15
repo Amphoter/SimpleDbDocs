@@ -9,7 +9,6 @@ namespace DbDocsGenerator.ExcelLogic
         public static void GenerateExcelFile(Table[] tables, string filePath)
         {
             using var workBook = new XLWorkbook();
-            var style = workBook.Style;
 
             workBook.AddGeneralWorkSheet(tables);
             workBook.AddTablesWorksheets(tables);

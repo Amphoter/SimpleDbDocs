@@ -1,6 +1,6 @@
 ﻿namespace DbDocsGenerator.ExcelLogic
 {
-    public class ExcelHelper
+    public static class ExcelHelper
     {
         private const int maxName = 31;
 
