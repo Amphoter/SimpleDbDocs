@@ -1,7 +1,7 @@
 # SimpleDbDocs
 Console application to generate db docs
 
-Currently app can generate excel file for SQL Server. 
+Currently app can generate excel file for MS SQL Server. 
 
 Steps to generate:
 1. In Program.cs assign connection string value to connectionString variable
