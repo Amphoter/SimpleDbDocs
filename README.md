@@ -9,6 +9,6 @@ Steps to generate:
 3. Run App
 
 Generated file description:
-File will containt worksheets with all tables that currently in db and one general sheet with all tables. On General sheet each table name will have link to specific sheet with table info content. Current table info content : ColumnName, DataType, IsNullable. But you can add any needed column by editing ExcelGeneratorExtensions.cs and Column.cs class to extend generated info. 
+File will contain worksheets with all tables that currently in db and one general sheet with all tables. On General sheet each table name will have link to specific sheet with table info content. Current table info content : ColumnName, DataType, IsNullable. But you can add any needed column by editing ExcelGeneratorExtensions.cs and Column.cs class to extend generated info. 
 
 This app uses data from INFORMATION_SCHEMA.COLUMNS table to generate docs so generated file can be easily extended. Data that available from INFORMATION_SCHEMA.COLUMNS table can be found here https://learn.microsoft.com/en-us/sql/relational-databases/system-information-schema-views/columns-transact-sql?view=sql-server-ver16
